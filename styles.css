@@ -1,4 +1,13 @@
-/* Header/Nav */
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto/OFL.txt') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }  
 
 .main-header {
     text-align: center;
@@ -24,7 +33,7 @@
     text-decoration: none;
     color: #000;
     font-weight: 500;
-    font-size: 0.95rem;
+    font-size: 12px;
   }
   
   .navbar li a:hover {
@@ -54,9 +63,36 @@
     text-decoration: none;
     color: #000;
     font-weight: 500;
-    font-size: 0.95rem;
+    font-size: 12px;
   }
   
   .subnav-links li a:hover {
     text-decoration: underline;
   }
+
+  .about-image {
+    margin: 0 87.6389px 87.6389px 87.6389px;
+  }
+  
+  .about-image img {
+    display: block;
+    width: 100%;
+  }
+
+  .about-text {
+    margin: 0 262.917px 87.6389px 262.917px;
+  }
+  
+  .bold-paragraph {
+    font-weight: bold;
+    font-size: 22.5px;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+  }
+  
+  .small-paragraph {
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  
